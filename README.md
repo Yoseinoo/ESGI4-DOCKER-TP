@@ -9,9 +9,9 @@ L'installation Docker génère 5 conteneurs :
 - Client de BDD (phpmyadmin)
 - Administration de conteneurs (portainer)
 
-L'application ne fait rien de spécial. Il y a un appel sur la route /api du back qui renvoie un texte. 
-Le back a également une route /health qui est appelée par le heathcheck du backend pour vérifier s'il est toujours en vie. 
-Le healhcheck du front est juste un curl vers localhost.
+L'application ne fait rien de spécial. Il y a un appel sur la route /api du back qui renvoie un texte.  
+Le back a également une route /health qui est appelée par le healthcheck du backend pour vérifier s'il est toujours en vie.  
+Le healthcheck du front est juste un curl vers localhost.
 
 ## Prérequis
 
