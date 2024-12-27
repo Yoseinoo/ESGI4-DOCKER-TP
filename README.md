@@ -20,15 +20,15 @@ Le healthcheck du front est juste un curl vers localhost.
 
 ## Structure du projet
 
-projet/
-│
-├── front/
-│   └── Dockerfile
-│
-├── back/
-│   └── Dockerfile
-│
-└── docker-compose.yml
+projet/  
+│  
+├── front/  
+│   └── Dockerfile  
+│  
+├── back/  
+│   └── Dockerfile  
+│  
+└── docker-compose.yml  
 
 
 ## Étapes de déploiement
